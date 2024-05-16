@@ -67,7 +67,7 @@ namespace udb_console_app_c
 
         public static bool dataValidation(string password)
         {
-             bool ok = true;
+            bool ok = true;
 
             if (password.Trim().Length < 8)
             {
@@ -112,7 +112,8 @@ namespace udb_console_app_c
                         if (fileName.Equals("admin"))
                         {
                             adminList.Add(new admin { username = partes[0].Trim(), password = partes[1].Trim() });
-                        } else
+                        }
+                        else
                         {
                             sellerList.Add(new seller { username = partes[0].Trim(), password = partes[1].Trim() });
                         }
@@ -147,7 +148,7 @@ namespace udb_console_app_c
 
                 runner = false;
             } while (runner);
-        } 
+        }
 
         public static void login(int userType)
         {
@@ -167,7 +168,7 @@ namespace udb_console_app_c
                     case 1:
                         admin findAdmin = adminList.Find(u => u.username == username.Trim() && u.password == password.Trim());
 
-                        if(findAdmin.username == null)
+                        if (findAdmin.username == null)
                         {
                             Console.Clear();
                             Console.WriteLine("Usuario o contraseña incorrecta");
@@ -194,7 +195,6 @@ namespace udb_console_app_c
 
         public static void adminMenu()
         {
-            Console.Clear();
             int option;
             bool runner = true;
             do
@@ -247,12 +247,12 @@ namespace udb_console_app_c
                 {
                     runner = createUser(1);
                 } while (!runner);
-                
+
             }
 
             mainMenu();
 
-            if(userType != 3)
+            if (userType != 3)
             {
                 login(userType);
             }
@@ -260,6 +260,7 @@ namespace udb_console_app_c
             switch (userType)
             {
                 case 1:
+                    Console.Clear();
                     adminMenu();
                     break;
                 case 2:
