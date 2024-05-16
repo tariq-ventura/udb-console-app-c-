@@ -1,0 +1,7 @@
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\bin\Debug\udb-console-app-c.exe.config
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\bin\Debug\udb-console-app-c.exe
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\bin\Debug\udb-console-app-c.pdb
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\obj\Debug\udb-console-app-c.csproj.AssemblyReference.cache
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\obj\Debug\udb-console-app-c.csproj.CoreCompileInputs.cache
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\obj\Debug\udb-console-app-c.exe
+C:\Users\tariq\source\repos\udb-console-app-c\udb-console-app-c\obj\Debug\udb-console-app-c.pdb
